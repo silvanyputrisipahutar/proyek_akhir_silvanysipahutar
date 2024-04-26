@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InformasiActivity">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:id="@+id/textpanjang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="&quot;Aplikasi ini adalah sebuah platform digital yang dirancang
+untuk mempermudah administrasi kampus, dengan fokus pada pengelolaan data
+mahasiswa. Aplikasi ini memungkinkan mahasiswa untuk melakukan beberapa  penting: menambahkan data pribadi mereka, melihat profil dan informasi akademiserta memperbarui data yang diperlukan, seperti alamat, nomor telepon, dan detail kursus
+yang diambil. Dengan antarmuka yang ramah pengguna dan fungsionalitas yang komprehensif,
+aplikasi ini membantu mahasiswa dan staf kampus menjaga data tetap terorganisir dan up-to-date.
+Selain itu, aplikasi ini dapat diakses melalui perangkat seluler atau komputer, sehingga
+memudahkan mahasiswa untuk mengakses dan mengelola informasi kapan saja dan di mana saja.&quot;"
+            android:justificationMode="inter_word"
+            android:layout_gravity="center"
+            android:padding="20dp"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/image"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="100dp"
+                    android:src="@drawable/student" />
+
+                <Button
+                    android:id="@+id/lihat_button"
+                    android:layout_width="210dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="30dp"
+                    android:backgroundTint="@color/design_default_color_error"
+                    android:drawableLeft="@drawable/lihat"
+                    android:drawablePadding="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="Lihat Data"
+                    android:textColor="#ffffff"
+                    android:textSize="15sp"
+                    android:layout_gravity="center"
+                    android:onClick="gotoInputDataActivity"/>
+
+                <Button
+                    android:id="@+id/input_button"
+                    android:layout_width="210dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/material_dynamic_primary70"
+                    android:drawableLeft="@drawable/input"
+                    android:drawablePadding="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="Input Data"
+                    android:textColor="#ffffff"
+                    android:textSize="15sp"
+                    android:layout_gravity="center" />
+
+                <Button
+                    android:id="@+id/info_button"
+                    android:layout_width="210dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="10dp"
+                    android:drawableLeft="@drawable/informasi"
+                    android:drawablePadding="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="Informasi"
+                    android:textColor="#ffffff"
+                    android:textSize="15sp"
+                    android:layout_gravity="center" />
+
+        </LinearLayout>
+
+</LinearLayout>
